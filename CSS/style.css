@@ -64,6 +64,7 @@ h1 {
     color: white;
     position: relative;
     animation: scroll-left 20s linear infinite;
+    text-align: center;
 }
 
 .footer {
@@ -91,7 +92,9 @@ button {
 }
 
 button:hover {
-    background-color: grey;
+    background-color: beige;
+    color: black;
+    border: 2px solid black;
 }
 
 .xsmall {
@@ -99,11 +102,11 @@ button:hover {
     background-color: #4C7766;
     width: 200px;
     height: 50px;
-    align-items: left;
+    margin-left: 0;
 }
 
 .href:hover {
-    background-color: grey;
+    background-color: beige;
 }
 
 /* Work Section */
@@ -122,6 +125,7 @@ button:hover {
 
 .small {
     background-color: beige;
+    color: black;
     width: 200px;
     height: 50px;
 }
@@ -138,7 +142,7 @@ button:hover {
 }
 
 h2 {
-    color: black;
+    color: white;
     font-weight: bold;
 }
 
